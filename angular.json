@@ -94,7 +94,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/leaflet/dist/leaflet.js"
+            ]
           }
         },
         "lint": {
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "appli"
+    }
+  },
+  "defaultProject": "appli",
+  "cli": {
+    "analytics": false
+  }
 }
